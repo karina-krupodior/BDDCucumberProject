@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "test login functionality",
+    "line": 1,
+    "id": "test-login-functionality",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "test-login-functionality;test-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "test login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters 'test' and 'test'",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is navigated to the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-login-functionality;test-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "test login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters 'karina' and 'karina'",
+            "result": {
+              "status": "passed",
+              "duration": 644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is navigated to the homepage",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Login Successful :)' but never did.\n    at cy.<computed> [as contains] (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:173222:96)\n    at Context.eval (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:49:6)\n    at Context.resolveAndRunStepDefinition (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:10451:29)\n    at Context.eval (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:9772:35)\n    at getRet (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156267:20)\n    at tryCatcher (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise.attempt.Promise.try (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:10296:29)\n    at Context.thenFn (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156285:63)\n    at Context.then (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156737:21)\n    at Context.<anonymous> (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:173217:19)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-login-functionality;test-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "test login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters 'here' and 'here'",
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is navigated to the homepage",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Login Successful :)' but never did.\n    at cy.<computed> [as contains] (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:173222:96)\n    at Context.eval (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:49:6)\n    at Context.resolveAndRunStepDefinition (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:10451:29)\n    at Context.eval (https://trytestingthis.netlify.app/__cypress/tests?p=cypress/integration/cucumber-tests/login.feature:9772:35)\n    at getRet (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156267:20)\n    at tryCatcher (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise.attempt.Promise.try (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:10296:29)\n    at Context.thenFn (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156285:63)\n    at Context.then (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:156737:21)\n    at Context.<anonymous> (https://trytestingthis.netlify.app/__cypress/runner/cypress_runner.js:173217:19)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
